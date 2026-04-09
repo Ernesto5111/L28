@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">L28</string>
+    <string-array name="countries_array">
+        <item>Polska</item>
+        <item>Niemcy</item>
+        <item>Czechy</item>
+        <item>Słowacja</item>
+        <item>Francja</item>
+        <item>Hiszpania</item>
+        <item>Włochy</item>
+        <item>Wielka Brytania</item>
+    </string-array>
+</resources>
