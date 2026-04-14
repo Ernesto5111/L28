@@ -11,6 +11,7 @@
         android:text="Wybierz kraj:"
         android:textSize="18sp"
         android:layout_marginBottom="10dp"/>
+    
 
     <MultiAutoCompleteTextView
         android:id="@+id/MultiautoComplete"
@@ -19,13 +20,6 @@
         android:hint="Zacznij wpisywać nazwę kraju..."
         android:completionThreshold="3" />
     <!-- Podpowiedzi pojawią się po wpisaniu 1 znaku -->
-
-        <MultiAutoCompleteTextView
-        android:id="@+id/multiAutoComplete"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Zacznij wpisywać nazwę kraju..."
-        android:completionThreshold="3" />
 
     <Button
         android:id="@+id/btnConfirm"
