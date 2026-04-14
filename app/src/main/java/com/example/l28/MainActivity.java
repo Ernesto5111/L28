@@ -24,7 +24,16 @@ public class MainActivity extends AppCompatActivity {
         btnConfirm = findViewById(R.id.btnConfirm);
 
         // 1. Pobranie listy podpowiedzi z zasobów strings.xml
-        String[] countries = getResources().getStringArray(R.array.countries_array);
+        String[] countries = {
+                "Polska",
+                "Niemcy",
+                "Czechy",
+                "Słowacja",
+                "Francja",
+                "Hiszpania",
+                "Włochy",
+                "Wielka Brytania"
+        };
 
         // 2. Stworzenie ArrayAdapter
         // simple_dropdown_item_1line to layout zaprojektowany specjalnie
